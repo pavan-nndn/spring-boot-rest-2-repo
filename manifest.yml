@@ -1,0 +1,4 @@
+applications:
+- name: spring-boot-rest-2
+  path: target/Spring-Boot-Rest-2-0.0.1-SNAPSHOT.jar
+  routes:  - route: spring-boot-rest-2-qa-1.cfapps.io
