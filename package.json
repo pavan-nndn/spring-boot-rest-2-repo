@@ -8,7 +8,7 @@
     "cypress": "^7.4.0"
   },
   "scripts": {
-    "test": ".\\node_modules\\.bin\\cypress run"
+    "test": "cypress run --browser chrome --spec \"cypress/integration/test1_spec.js\" --headless"
   },
   "author": "pavan",
   "license": "ISC"
